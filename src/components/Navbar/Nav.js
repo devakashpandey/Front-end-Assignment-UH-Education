@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
-import { Link } from "react-router-dom";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import logo from "../../assets/logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import Wrapper from "../Wrapper/Wrapper";
 import { NavLink } from "react-router-dom";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Nav = () => {
+  const [menuOpen, setOpenMenu] = useState(false);
+
   const menuOptions = [
     { title: "Home", path: "/" },
     { title: "Prelims", path: "/prelims", icon: ArrowDropDownIcon },
@@ -29,7 +31,11 @@ const Nav = () => {
           <div className="logo">
             <img src={logo} alt="logo"></img>
           </div>
-          <ul>
+
+          <div className="hamburger" onClick={() => setOpenMenu(!menuOpen)}>
+            <MenuIcon style={{ fontSize: "30px" }} />
+          </div>
+          <ul className={menuOpen ? "open" : ""}>
             {menuOptions.map((item, index, icon) => (
               <li key={index}>
                 <NavLink className="title" to={item.path}>

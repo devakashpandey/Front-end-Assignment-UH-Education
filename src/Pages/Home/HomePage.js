@@ -11,6 +11,7 @@ const HomePage = () => {
         <Routes>
           <Route path="/about" element={<About />} />
         </Routes>
+        
       </div>
     </>
   );
