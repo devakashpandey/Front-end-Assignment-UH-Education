@@ -1,8 +1,6 @@
 import React from "react";
 import "./HomePage.css";
 import Nav from "../../components/Navbar/Nav";
-import { Route, Routes } from "react-router-dom";
-import About from "../About/About";
 import Wrapper from "../../components/Wrapper/Wrapper";
 import heroBanner from "../../assets/banner.png";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
@@ -16,10 +14,8 @@ import mcq from "../../assets/mcq.png";
 import Box1 from "./Boxes/Box1";
 import Box2 from "./Boxes/Box2";
 import Box3 from "./Boxes/Box3";
-import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import state from "../../assets/state.png";
-import judiciary from "../../assets/judiciary.png";
-import GS from "../../assets/GS.png";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import Explore from "./Explore/Explore";
 
 const HomePage = () => {
   return (
@@ -97,62 +93,55 @@ const HomePage = () => {
 
         <section className="expore">
           <Wrapper>
-            <div className="explore_wrapper">
-              <div className="upper_side">
-                <div className="explore_left_side">
-                  <div className="state_live">
-                    <img src={state} alt="" />
-                    <div className="state_description">
-                      <h1>State PSCs Live</h1>
-                      <p>State PSCs Live classes sessions by top faculty.</p>
-                      <p className="explore_course_btn">Explore Courses</p>
-                    </div>
-                  </div>
-                  <div className="judiciary_live">
-                    <img src={judiciary} alt="" />
-                    <div className="judiciary_description">
-                      <h1>State PSCs Live</h1>
-                      <p>State PSCs Live classes sessions by top faculty.</p>
-                      <p className="explore_course_btn">Explore Courses</p>
-                    </div>
-                  </div>
+            <Explore />
+          </Wrapper>
+        </section>
+
+        {/* ------------- Our courses batches blog section starts here ---------------------*/}
+        <section className="our_facilities">
+          <Wrapper>
+            <div className="facility_wrapper">
+              <div className="online_courses falcility">
+                <div className="left_sec">
+                  <h1>Online courses</h1>
+                  <button className="explore_now_btn">Explore Now</button>
                 </div>
-                <div className="explore_right_side">
-                  <h1>
-                    Crack State <span>PSCs</span> and Judiciary Exams with{" "}
-                    <span>India’s</span> super teacher
-                  </h1>
-                  <p>
-                    Our courses provide complete coverage of the topics you need
-                    to be prepared for
-                  </p>
-                  <p className="learn_more_btn">
-                    Learn More <NavigateNextIcon />{" "}
-                  </p>
-                </div>
+                <div className="right_sec"></div>
               </div>
-              <div className="lower_side">
-                <div className="lower_left_side">
-                  <h1>Explore our GS and Current Affairs courses</h1>
-                  <p>Everything you need for exam at one place.</p>
+              <div className="batches falcility">
+                <div className="left_sec">
+                  <h1>Batches</h1>
+                  <button className="explore_now_btn">Explore Now</button>
                 </div>
-                <div className="lower_right_side">
-                  <div className="GS_1">
-                    <img src={GS} alt="" />
-                  </div>
-                  <div className="GS_2">
-                    <img src={GS} alt="" />
-                  </div>
+                <div className="right_sec"></div>
+              </div>
+              <div className="blog falcility">
+                <div className="left_sec">
+                  <h1>Blog</h1>
+                  <button className="explore_now_btn">Explore Now</button>
                 </div>
+                <div className="right_sec"></div>
+              </div>
+              <div className="playlist falcility">
+                <div className="left_sec">
+                  <h1>Playlist</h1>
+                  <button className="explore_now_btn">Explore Now</button>
+                </div>
+                <div className="right_sec"></div>
+              </div>
+              <div className="practice falcility">
+                <div className="left_sec">
+                  <h1>Practice</h1>
+                  <button className="explore_now_btn">Explore Now</button>
+                </div>
+                <div className="right_sec"></div>
+              </div>
+              <div className="explore_more">
+                Explore More <KeyboardArrowRightIcon />{" "}
               </div>
             </div>
           </Wrapper>
         </section>
-
-        {/* ------ landing page ends here -----  */}
-        <Routes>
-          <Route path="/about" element={<About />} />
-        </Routes>
       </div>
     </>
   );
