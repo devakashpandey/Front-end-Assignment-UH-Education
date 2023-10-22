@@ -14,7 +14,7 @@ import Box1 from "./boxes/box1/Box1";
 import Box2 from "./boxes/box2/Box2";
 import Box3 from "./boxes/box3/Box3";
 import Explore from "./explore/Explore";
-import Facilities from "./Facilities/Facilities";
+import Facilities from "./facilities/Facilities";
 import Founder from "./founder/Founder";
 
 const HomePage = () => {
