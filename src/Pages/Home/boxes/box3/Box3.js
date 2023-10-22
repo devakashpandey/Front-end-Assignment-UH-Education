@@ -9,8 +9,7 @@ const Box3 = () => {
       date: "22-09-2023",
     },
     {
-      title:
-        "Mains Practice Question (GS paper 1) - `How revolt of 1857 was a regime shift for India?`",
+      title: "Editorial on Three years of the Abraham Accords",
       date: "25-09-2023",
     },
     {

@@ -74,7 +74,7 @@
 }
 
 .m_icon {
-  font-size: 40px !important;
+  font-size: 45px !important;
   color: var(--dimBlack);
 }
 
@@ -172,5 +172,6 @@
 }
 
 .founder_details {
-  margin-top: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }

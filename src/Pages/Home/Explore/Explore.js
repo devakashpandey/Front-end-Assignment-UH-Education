@@ -12,7 +12,7 @@ const Explore = () => {
         <div className="upper_side">
           <div className="explore_left_side">
             <div className="state_live">
-              <img src={state} alt="" />
+              <img src={state} alt="" className="explore_img" />
               <div className="explore_description">
                 <h1>State PSCs Live</h1>
                 <p>State PSCs Live classes sessions by top faculty.</p>
@@ -23,7 +23,7 @@ const Explore = () => {
               </div>
             </div>
             <div className="judiciary_live">
-              <img src={judiciary} alt="" />
+              <img src={judiciary} alt="" className="explore_img" />
               <div className="explore_description">
                 <h1>State PSCs Live</h1>
                 <p>State PSCs Live classes sessions by top faculty.</p>

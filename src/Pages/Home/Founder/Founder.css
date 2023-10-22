@@ -1,7 +1,7 @@
 .founder_title {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .founder_box_wrapper {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
@@ -37,17 +37,18 @@
 }
 
 .founder_left > img {
-  width: 15rem;
+  width: 13rem;
 }
 
 .founder_left > h1 {
   color: var(--primaryColor);
   margin-top: 0.5rem;
+  font-size: 1.8rem;
 }
 .founder_left > span {
   color: var(--primaryColor);
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .founder_left > h2 {
   color: var(--dimBlack);
@@ -61,7 +62,7 @@
   text-align: justify;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .founder_right {
