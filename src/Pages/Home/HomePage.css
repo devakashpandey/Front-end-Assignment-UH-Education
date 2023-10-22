@@ -16,7 +16,7 @@
   align-items: center;
   padding: 20px;
   margin-top: 3rem;
-  height: 22vh;
+  height: 23vh;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -52,22 +52,36 @@
   display: flex;
   align-items: center;
   width: 100%;
+  gap: 1rem;
+  margin-left: 1.5rem;
 }
 
 .right_side div {
+  width: 130px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
 }
 
-.right_side img {
-  width: 3rem;
-  margin-top: -0.1rem;
+.m_icon {
+  font-size: 40px !important;
+  color: var(--dimBlack);
 }
 
 .right_side div span {
   text-align: center;
+  font-size: 13px;
+  color: rgba(51, 51, 51, 1);
 }
 
 .box_section {

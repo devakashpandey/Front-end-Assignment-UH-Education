@@ -16,6 +16,12 @@ import Box3 from "./boxes/box3/Box3";
 import Explore from "./explore/Explore";
 import Facilities from "./facilities/Facilities";
 import Founder from "./founder/Founder";
+import LanguageIcon from "@mui/icons-material/Language";
+import StickyNote2Icon from "@mui/icons-material/StickyNote2";
+import GroupsIcon from "@mui/icons-material/Groups";
+import SaveAsIcon from "@mui/icons-material/SaveAs";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
+import TwentyFourMpIcon from "@mui/icons-material/TwentyFourMp";
 
 const HomePage = () => {
   return (
@@ -37,36 +43,37 @@ const HomePage = () => {
                     हिंदी वेबसाइट पर जाएँ
                   </p>
                 </div>
+                <span className="border"></span>
                 <div className="right_side">
                   <ArrowCircleLeftIcon
-                    style={{ color: "var(--primaryColor)" }}
+                    style={{ color: "var(--primaryColor)", fontSize: "30px" }}
                   />
                   <div className="news">
-                    <img src={news} alt="" />
-                    <p>News & Editorials</p>
+                    <LanguageIcon className="m_icon" />
+                    <span>News & Editorials</span>
                   </div>
                   <div className="blog">
-                    <img src={blog} alt="" />
+                    <StickyNote2Icon className="m_icon" />
                     <span>Blog</span>
                   </div>
                   <div className="classroom">
-                    <img src={classroom} alt="" />
+                    <GroupsIcon className="m_icon" />
                     <span>Classroom Prog.</span>
                   </div>
                   <div className="test">
-                    <img src={test} alt="" />
+                    <SaveAsIcon className="m_icon" />
                     <span>Mains Test Series</span>
                   </div>
                   <div className="subjects">
-                    <img src={subject} alt="" />
+                    <MenuBookIcon className="m_icon" />
                     <span>Optional Subjects</span>
                   </div>
                   <div className="mcq">
-                    <img src={mcq} alt="" />
+                    <TwentyFourMpIcon className="m_icon" />
                     <span>Daily MCQs</span>
                   </div>
                   <ArrowCircleRightIcon
-                    style={{ color: "var(--primaryColor)" }}
+                    style={{ color: "var(--primaryColor)", fontSize: "30px" }}
                   />
                 </div>
               </div>
