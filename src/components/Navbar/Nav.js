@@ -4,7 +4,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import logo from "../../assets/logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import Wrapper from "../Wrapper/Wrapper";
+import Wrapper from "../wrapper/Wrapper";
 import { NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -13,14 +13,14 @@ const Nav = () => {
 
   const menuOptions = [
     { title: "Home", path: "/" },
-    { title: "Prelims", path: "/prelims", icon: ArrowDropDownIcon },
+    { title: "Prelims", path: "/prelims" },
     { title: "Quizes", path: "/quizes" },
-    { title: "Main & Interview", path: "/interview", icon: ArrowDropDownIcon },
-    { title: "Current Affairs", path: "/affairs", icon: ArrowDropDownIcon },
+    { title: "Main & Interview", path: "/interview" },
+    { title: "Current Affairs", path: "/affairs" },
     { title: "Test Series", path: "/test" },
-    { title: "State PCS", path: "/pcs", icon: ArrowDropDownIcon },
-    { title: "Resources", path: "/resources", icon: ArrowDropDownIcon },
-    { title: "Quick Link", path: "/qLink", icon: ArrowDropDownIcon },
+    { title: "State PCS", path: "/pcs" },
+    { title: "Resources", path: "/resources" },
+    { title: "Quick Link", path: "/qLink" },
     { title: "About", path: "/about" },
   ];
 

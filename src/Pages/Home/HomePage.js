@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
-import Nav from "../../components/Navbar/Nav";
-import Wrapper from "../../components/Wrapper/Wrapper";
+import Nav from "../../components/navbar/Nav";
+import Wrapper from "../../components/wrapper/Wrapper";
 import heroBanner from "../../assets/banner.png";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
@@ -99,6 +99,8 @@ const HomePage = () => {
             <Facilities />
           </Wrapper>
         </section>
+
+        {/* ---------- Our founder section starts here ------------*/}
 
         <section className="founder_details">
           <Wrapper>

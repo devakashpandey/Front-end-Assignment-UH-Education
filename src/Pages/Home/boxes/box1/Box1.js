@@ -1,7 +1,7 @@
 import React from "react";
 import "./Box1.css";
 import FeedOutlinedIcon from "@mui/icons-material/FeedOutlined";
-import Checkboxnew from "../../../../components/Checkbox/Checkboxnew";
+import Checkboxnew from "../../../../components/checkbox/Checkboxnew";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 
