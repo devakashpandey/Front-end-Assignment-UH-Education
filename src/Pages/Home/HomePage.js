@@ -14,19 +14,20 @@ import mcq from "../../assets/mcq.png";
 import Box1 from "./Boxes/Box1";
 import Box2 from "./Boxes/Box2";
 import Box3 from "./Boxes/Box3";
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Explore from "./Explore/Explore";
+import Facilities from "./Facilities/Facilities";
+import Founder from "./Founder/Founder";
 
 const HomePage = () => {
   return (
     <>
       <div>
         {/* ------ Navbar starts here -----  */}
-        <Nav />
+        <div className="nav_bar">
+          <Nav />
+        </div>
 
-        {/* ------ Navbar ends here -----  */}
-
-        {/* ------ landing page starts here -----  */}
+        {/* ------ Hero section starts here -----  */}
         <section className="heroSection">
           <Wrapper>
             <div className="homepage">
@@ -78,7 +79,7 @@ const HomePage = () => {
             </div>
           </Wrapper>
         </section>
-        {/* ----------------Boxes section------------- */}
+        {/* -------------Boxes section starts here----------- */}
         <section className="box_section">
           <Wrapper>
             <div className="boxes">
@@ -89,7 +90,7 @@ const HomePage = () => {
           </Wrapper>
         </section>
 
-        {/* ----------------Boxes section ends here------------- */}
+        {/* ----------Explore section starts here----------- */}
 
         <section className="expore">
           <Wrapper>
@@ -97,49 +98,16 @@ const HomePage = () => {
           </Wrapper>
         </section>
 
-        {/* ------------- Our courses batches blog section starts here ---------------------*/}
+        {/* ---------- Our facilities section starts here ------------*/}
         <section className="our_facilities">
           <Wrapper>
-            <div className="facility_wrapper">
-              <div className="online_courses falcility">
-                <div className="left_sec">
-                  <h1>Online courses</h1>
-                  <button className="explore_now_btn">Explore Now</button>
-                </div>
-                <div className="right_sec"></div>
-              </div>
-              <div className="batches falcility">
-                <div className="left_sec">
-                  <h1>Batches</h1>
-                  <button className="explore_now_btn">Explore Now</button>
-                </div>
-                <div className="right_sec"></div>
-              </div>
-              <div className="blog falcility">
-                <div className="left_sec">
-                  <h1>Blog</h1>
-                  <button className="explore_now_btn">Explore Now</button>
-                </div>
-                <div className="right_sec"></div>
-              </div>
-              <div className="playlist falcility">
-                <div className="left_sec">
-                  <h1>Playlist</h1>
-                  <button className="explore_now_btn">Explore Now</button>
-                </div>
-                <div className="right_sec"></div>
-              </div>
-              <div className="practice falcility">
-                <div className="left_sec">
-                  <h1>Practice</h1>
-                  <button className="explore_now_btn">Explore Now</button>
-                </div>
-                <div className="right_sec"></div>
-              </div>
-              <div className="explore_more">
-                Explore More <KeyboardArrowRightIcon />{" "}
-              </div>
-            </div>
+            <Facilities />
+          </Wrapper>
+        </section>
+
+        <section className="founder_details">
+          <Wrapper>
+            <Founder />
           </Wrapper>
         </section>
       </div>
