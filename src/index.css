@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Quicksand:wght@300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Quicksand:wght@300;400;500&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600&family=Outfit:wght@300;400;500&family=Quicksand:wght@300;400;500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 :root {
   --primaryColor: #f06e75;
   --darkPrimaryColor: #fb5259;
+  --dimBlack: #333333;
+  --lightGrey: ##646f79;
 }
