@@ -43,7 +43,7 @@ const HomePage = () => {
                   />
                   <div className="news">
                     <img src={news} alt="" />
-                    <span>News & Editorials</span>
+                    <p>News & Editorials</p>
                   </div>
                   <div className="blog">
                     <img src={blog} alt="" />
