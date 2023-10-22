@@ -11,22 +11,17 @@ import classroom from "../../assets/classroom.png";
 import test from "../../assets/test.png";
 import subject from "../../assets/subject.png";
 import mcq from "../../assets/mcq.png";
-import Box1 from "./Boxes/Box1";
-import Box2 from "./Boxes/Box2";
-import Box3 from "./Boxes/Box3";
-import Explore from "./Explore/Explore";
+import Box1 from "./boxes/box1/Box1";
+import Box2 from "./boxes/box2/Box2";
+import Box3 from "./boxes/box3/Box3";
+import Explore from "./explore/Explore";
 import Facilities from "./Facilities/Facilities";
-import Founder from "./Founder/Founder";
+import Founder from "./founder/Founder";
 
 const HomePage = () => {
   return (
     <>
       <div>
-        {/* ------ Navbar starts here -----  */}
-        <div className="nav_bar">
-          <Nav />
-        </div>
-
         {/* ------ Hero section starts here -----  */}
         <section className="heroSection">
           <Wrapper>
