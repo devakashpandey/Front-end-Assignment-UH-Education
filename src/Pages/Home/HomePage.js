@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomePage.css";
-import Nav from "../../components/navbar/Nav";
 import Wrapper from "../../components/wrapper/Wrapper";
 import heroBanner from "../../assets/banner.png";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
