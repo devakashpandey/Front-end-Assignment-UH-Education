@@ -4,7 +4,6 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import logo from "../../assets/logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import Wrapper from "../wrapper/Wrapper";
 import { NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 
